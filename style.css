@@ -1,0 +1,13 @@
+ .hidden {
+    display: none;
+ }
+#warning {
+	color: #bd1515;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: .5px;
+    text-transform: uppercase;    
+}
+#form {
+    margin-top:50px;
+}

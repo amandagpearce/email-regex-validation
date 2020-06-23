@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+    
+                <div class="col-xs-12 col-md-6">
+                    <form id="form" class="" method="post" onsubmit="Validate(event)">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" class="form-control" placeholder="Email" required="required" aria-describedby="emailHelp"/>
+                            <small id="warning" class="form-text hidden" class="">Provedores aceitos incluem apenas: Gmail, Outlook e Hotmail</small>
+                        </div>
+                        
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+                    
+                    </form>
+                </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
